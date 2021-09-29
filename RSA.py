@@ -1,3 +1,4 @@
+#RSA ALGORITHM IMPLEMENTATION BY PYTHON
 #Group members
 #Samuel abatneh UGR/7229/12
 #Sefineh Tesfa UGR/2844/12
@@ -5,6 +6,7 @@
 #Abel mekonen UGR/7784/12
 #Genzeb alemu UGR/9822/12
 #Hiwot derese UGR/2790/12
+#date 29/09/2021
 
 def gcd(a, b): #function decleared and defined. This function apply euler theorem to find and return gcd of numbers
     if a < b:
@@ -27,7 +29,7 @@ for k in range(2, theta):
     if gcd(k, theta) == 1:
         liste.append(k)
 
-print("your possible value of e is the following choose one::", liste)
+print("your possible value of e is the following choose one:", liste)
 
 e = int(input("please enter the value of e  ::"))
 d = 0

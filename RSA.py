@@ -1,3 +1,11 @@
+#Group members
+#Samuel abatneh
+#Sefineh Tesfa
+#Jebessa
+#Abel mekonnen
+#Genzeb alemu
+#Hiwot derese
+
 def gcd(a, b):
     if a < b:
         a, b = b, a

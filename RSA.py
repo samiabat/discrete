@@ -1,10 +1,10 @@
 #Group members
-#Samuel abatneh
-#Sefineh Tesfa
-#Jebessa
-#Abel mekonnen
-#Genzeb alemu
-#Hiwot derese
+#Samuel abatneh UGR/7229/12
+#Sefineh Tesfa UGR/2844/12
+#Jebessa Dejene UGR/0459/12
+#Abel mekonen UGR/7784/12
+#Genzeb alemu UGR/9822/12
+#Hiwot derese UGR/2790/12
 
 def gcd(a, b):
     if a < b:

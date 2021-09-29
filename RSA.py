@@ -31,7 +31,7 @@ for k in range(2, theta):
 
 print("your possible value of e is the following choose one:", liste)
 
-e = int(input("please enter the value of e  ::"))
+e = int(input("please enter the value of e  :"))
 d = 0
 
 for k in range(2, n):

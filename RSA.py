@@ -8,13 +8,13 @@
 #Hiwot derese UGR/2790/12
 #date 29/09/2021
 
-def gcd(a, b): #function decleared and defined. This function apply euler theorem to find and return gcd of numbers
-    if a < b:
-        a, b = b, a
-    if a % b == 0:
+def gcd(num1, num2): #function decleared and defined. This function apply euler theorem to find and return gcd of numbers
+    if num1< num2:
+        num1, num2= num2, num1
+    if num1% num2 == 0:
         return b
     else:
-        return gcd(a, (a % b))
+        return gcd(num2, (num1% num2))
 
 
 prime_1 = int(input("prime one: "))

@@ -6,7 +6,7 @@
 #Genzeb alemu UGR/9822/12
 #Hiwot derese UGR/2790/12
 
-def gcd(a, b):
+def gcd(a, b): #function decleared and defined. This function check apply euler theorem to return gcd of numbers
     if a < b:
         a, b = b, a
     if a % b == 0:

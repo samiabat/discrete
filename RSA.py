@@ -15,9 +15,9 @@ def gcd(a, b): #function decleared and defined. This function apply euler theore
         return gcd(a, (a % b))
 
 
-prime_1 = int(input("prime one:: "))
-prime_2 = int(input("prime two:: "))
-message1 = int(input("enter the message 1:: "))
+prime_1 = int(input("prime one: "))
+prime_2 = int(input("prime two: "))
+message1 = int(input("enter the message 1: "))
 
 n = prime_1 * prime_2
 theta = (prime_1 - 1) * (prime_2 - 1)
@@ -29,7 +29,7 @@ for k in range(2, theta):
 
 print("your possible value of e is the following choose one::", liste)
 
-e = int(input("so please enter the value of e  ::"))
+e = int(input("please enter the value of e  ::"))
 d = 0
 
 for k in range(2, n):
@@ -37,7 +37,7 @@ for k in range(2, n):
         d = k
         break
 
-print("menu::")
+print("menu:")
 print("y: to Encrypt ")
 print("N: to Decrypt")
 command = input("")

@@ -7,6 +7,8 @@
 #Genzeb alemu UGR/9822/12
 #Hiwot derese UGR/2790/12
 #date 29/09/2021
+# these is our project
+#hello thanks
 
 def gcd(num1, num2): #function decleared and defined. This function apply euler theorem to find and return gcd of numbers
     if num1< num2:
